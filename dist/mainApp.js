@@ -20,8 +20,7 @@ const mainApp = (app) => __awaiter(void 0, void 0, void 0, function* () {
         app.get("/", (req, res) => {
             try {
                 return res.status(201).json({
-                    message: "Welcome to Tech Hack Challenge 2",
-                    status: 201,
+                    message: "Welcome to Wisdom Tech Hack Challenge 2",
                 });
             }
             catch (error) {
